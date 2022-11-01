@@ -1,0 +1,35 @@
+body{
+background-color: hsl(212, 45%, 89%);
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+}
+img{
+border-radius: 15px;
+align-items: center;
+}
+h1{
+text-align: center;
+color: hsl(218, 44%, 22%);
+}
+h4{
+    text-align: center;
+    color: gray;
+}
+.bloque{
+    background-color: hsl(0, 0%, 100%) ;
+    color: hsl(218, 44%, 22%);
+    width:300px;
+    padding: 10px;
+    border-style:hidden;
+    border-radius: 20px;
+    margin-inline-start: 500px;
+    margin-top: 50px;
+    
+}
+@media (max-width: 450px){
+    .bloque {
+        margin-inline-start: 20px;
+        margin: auto;
+
+    }
+}
